@@ -1,5 +1,6 @@
 const mysql = require("mysql");
 const inquirer = require("inquirer");
+const cTable = require("console.table");
 
 /*
 Intializing the msql connection to the database.
@@ -15,5 +16,5 @@ const connection = mysql.createConnection({
 
 connection.connect(function (error) {
   if (error) throw error;
-  app();
+  start();
 });
