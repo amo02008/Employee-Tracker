@@ -1,6 +1,7 @@
 # Employee-Tracker
 
-## An application created to allow the user to view and update employees, departments, and roles via the command line.
+## Description
+An application created to allow the user to view and update employees, departments, and roles via the command line.
 This app uses Node, Inquirer, and MySQL.
 
 [![License](https://img.shields.io/badge/License-BSD%202--Clause-blue.svg)](https://opensource.org/licenses/BSD-2-Clause)
